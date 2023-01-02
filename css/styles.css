@@ -346,7 +346,7 @@ footer div p {
   }
   .promo-lt {
     max-width: 70%;
-    margin-top: auto;
+    margin: auto;
     padding-top: 10%;
   }
   .promo-lt h1 {
