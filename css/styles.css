@@ -126,7 +126,7 @@ li:hover::after {
  .promo-banner {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  min-height: 100vh;
+  min-height: 80vh;
   max-width: 100%;
   background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4, 9, 30, 0.2)), url(../images/promo.jpg);
   background-position: center;
@@ -293,9 +293,19 @@ footer div p {
     margin-bottom: 3rem;
   }
 
+  .promo-banner {
+    min-height: 65vh;
+    max-width: 100%;
+    margin: auto;
+  }
   .promo-lt {
     max-width: 100%;
-    margin-bottom: auto;
+    margin: auto;
+  }
+  .promo-rt {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
   }
 
 }
@@ -321,10 +331,10 @@ footer div p {
   .nav-links {
     position: absolute;
     background: #b9e6bf;
-    height: 75vh;
-    width: 60%;
+    height: 100vh;
+    width: 80%;
     top: 0;
-    right: -80%;
+    right: -90%;
     text-align: left;
     z-index: 2;
     transition: 0;
@@ -357,7 +367,9 @@ footer div p {
   }
   .promo-lt h3 {
     font-size: 1rem;
-    color: #7c9792;
+    color: #99b4af;
+    text-decoration: underline;
+    /* border-bottom: 1px solid tomato; */
   }
 
   .promo-rt {
