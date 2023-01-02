@@ -321,15 +321,13 @@ footer div p {
 
 }
 
-@media screen and (max-width: 700px) {
-  
-  /* body::-webkit-scrollbar {
-      display: none;
-  } */
+@media (max-width: 700px) {
 
-  body {
-    /* -webkit-overflow-scrolling: none; */
+  html, body {
     overflow-x: hidden;
+  }
+  body {
+    position: relative;
   }
 
   .box {
@@ -360,6 +358,11 @@ footer div p {
     padding: 30px;
   }
 
+  .ads {
+    font-size: 0.8rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
   .promo-banner {
     min-height: 65vh;
     max-width: 100%;
@@ -399,15 +402,14 @@ footer div p {
     gap: 1rem;
     padding-top: 2rem;
   }
-  .first-col h2,
-  .first-col p {
-    font-size: 1.2rem;
+  .first-col h2 {
+    font-size: 1.6rem;
     font-weight: 600;
     margin: 1rem .5rem;
   }
 
   .first-col p {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     margin: 1rem .5rem;
   }
 }
