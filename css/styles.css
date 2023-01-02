@@ -1,6 +1,6 @@
 html {
   box-sizing: content-box;
-  font-family: 'Poppins', serif;
+  font-family: Poppins, serif;
   /* box-sizing: inherit; */
   margin: 0;
   padding: 0;
@@ -144,6 +144,7 @@ li:hover::after {
  }
 
  .promo-lt h1, .promo-lt h3 {
+  /* font-family: 'Poppins', serif; */
   padding: 0.5rem;
  }
 
