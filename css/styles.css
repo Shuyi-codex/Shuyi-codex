@@ -324,6 +324,7 @@ footer div p {
 @media (max-width: 700px) {
 
   html, body {
+    width: 100%;
     overflow-x: hidden;
   }
   body {
