@@ -346,7 +346,7 @@ footer div p {
   .promo-lt {
     max-width: 100%;
     margin-top: -15%;
-    padding-top: 5%;
+    padding-top: 10%;
   }
   .promo-lt h1 {
     font-size: 1.5rem;
@@ -360,7 +360,8 @@ footer div p {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 15%;
+    margin-top: 10%;
+    padding-bottom: 10%;
   }
   .promo-btn {
     padding: 5px 10px;
