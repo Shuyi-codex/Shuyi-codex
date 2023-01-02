@@ -25,11 +25,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   text-transform: uppercase;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
 }
 a {
@@ -122,12 +122,25 @@ li:hover::after {
 /* Search Box onTop Ends Here */
 
  /* Promo Section  */
+ .ads {
+  background: #1C6758;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  color: #fff;
+ }
+ .ads a {
+  text-decoration: underline;
+  color: #fff;
+ }
 
  .promo-banner {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  min-height: 80vh;
-  max-width: 100%;
+  min-height: 50vh;
+  max-width: 90%;
+  margin: auto;
   background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4, 9, 30, 0.2)), url(../images/promo.jpg);
   background-position: center;
   background-size: cover;
@@ -135,30 +148,28 @@ li:hover::after {
  }
 
  .promo-lt {
-  max-width: 50%;
+  max-width: 100%;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20%;
+  margin: auto;
+  /* margin-left: auto; */
+  /* margin-top: 20%; */
   color: #fff;
  }
 
  .promo-lt h1, .promo-lt h3 {
   /* font-family: 'Poppins', serif; */
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
  }
 
  .promo-lt span {
+  font-family: 'Trebuchet MS';
   font-size: 2.5rem;
   color: tomato;
   display: block;
  }
 
  .promo-rt {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto;
  }
  .promo-btn {
   color: #fff;
@@ -201,9 +212,8 @@ section > h2:after {
   /* End of Heading and Horizontal Lines on the Sides */
 
 .first-section {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  /* text-align: center; */
   padding-top: 1%;
 }
 .section-row {
@@ -236,9 +246,10 @@ section > h2:after {
   margin: 1rem .5rem;
 }
 .first-col p {
+  font-family: Montserrat, Roboto;
   font-size: 1rem;
-  font-weight: 200;
-  color: #1C6578;
+  font-weight: 400;
+  color: #4b6369;
   margin: 1rem .5rem;
 }
 .first-col:hover {
