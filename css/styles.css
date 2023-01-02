@@ -340,30 +340,30 @@ footer div p {
   }
 
   .promo-banner {
-    display: block;
-    min-height: 350px;
-    max-width: 90%;
+    min-height: 65vh;
+    max-width: 100%;
     margin: auto;
   }
   .promo-lt {
-    max-width: 100%;
-    margin-top: -15%;
+    max-width: 70%;
+    margin-top: auto;
     padding-top: 10%;
   }
   .promo-lt h1 {
     font-size: 1.5rem;
   }
   .promo-lt span {
+    font-size: 1.2rem;
+  }
+  .promo-lt h3 {
     font-size: 1rem;
+    color: #7c9792;
   }
 
   .promo-rt {
-    max-width: 50%;
+    max-width: 100%;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10%;
-    padding-bottom: 10%;
+    margin: auto;
   }
   .promo-btn {
     padding: 5px 10px;
