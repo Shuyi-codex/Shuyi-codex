@@ -13,6 +13,10 @@ html {
   padding: 0;
 } */
 
+/* body {
+  width: 100%;
+} */
+
 body::-webkit-scrollbar {
   width: 0.1em;
 }
@@ -45,7 +49,7 @@ a {
 
 nav {
   display: flex;
-  padding: 1% 3%;
+  padding: 0 2%;
   justify-content: space-between;
   align-items: center;
 }
@@ -156,13 +160,8 @@ li:hover::after {
   color: #fff;
  }
 
- .promo-lt h1, .promo-lt h3 {
-  /* font-family: 'Poppins', serif; */
-  /* padding: 0.5rem; */
- }
-
  .promo-lt span {
-  font-family: 'Trebuchet MS';
+  font-family: 'Rubik Vinyl', 'Trebuchet MS';
   font-size: 2.5rem;
   color: tomato;
   display: block;
@@ -324,11 +323,11 @@ footer div p {
 @media (max-width: 700px) {
 
   html, body {
-    width: 100%;
     overflow-x: hidden;
   }
   body {
     position: relative;
+    margin-top: 0;
   }
 
   .box {
