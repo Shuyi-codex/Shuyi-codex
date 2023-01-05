@@ -145,7 +145,7 @@ li:hover::after {
   min-height: 50vh;
   max-width: 90%;
   margin: auto;
-  background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4, 9, 30, 0.2)), url(../images/promo.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4, 9, 30, 0.2)), url(../images/promo.png);
   background-position: center;
   background-size: cover;
   position: relative;
